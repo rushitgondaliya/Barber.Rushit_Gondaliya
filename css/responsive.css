@@ -1,0 +1,227 @@
+@media(max-width:1200px){
+    .banner{
+        overflow: hidden;
+    }
+    .banner .banner-img img{
+        overflow: hidden;
+        max-width: 1200px;
+    }
+    .contact-main{
+        overflow: hidden;
+    }
+    .contact-main .contact-img img{
+        max-width: 1200px;
+    }
+    .about-main .container .col-6 .about-img img{
+        /* width: 41.66%; */
+        width: 400px;
+    }
+    .about-main .container .col-6{
+        max-width: 41.66%;
+        margin: 0px 20px;
+    }
+    .services-main .col-4{
+        padding: 0px 0px ;
+    }
+    .services-main .col-4 .card-1{
+        width: 327px;
+    }
+    .services-main .col-4 .card-2{
+        width: 327px;
+    }
+    .services-main .container .col-4 .card-1 p{
+       padding-bottom: 20px ;
+    }
+    .services-main .container .col-4 .card-2 p{
+       padding-bottom: 20px ;
+    }
+    .Potfolio .pot img{
+
+        width: 936px;
+    }
+    .Potfolio .pot .pot-img{
+        /* width: 100%; */
+        width: 936px;
+    }
+    .Potfolio .pot .pot-img-1{
+        /* width: 936px; */
+        margin: 10px;
+    }
+    .Potfolio .pot .pot-img-2{
+        /* max-width: 936px; */
+        margin: 10px;
+        /* width: 100%; */
+    }
+    .Potfolio .pot .pot-img-3{
+        margin: 10px;
+        /* max-width: 936px; */
+        /* width: 100%; */
+    }
+    .Potfolio .pot .pot-img-4{
+        margin: 10px;
+        max-width: 936px;
+        /* width: 100%; */
+    }
+
+}
+@media(max-width:1080px){
+    .navbar .navbar-collapse{
+        max-width: 800px;
+    }
+    .banner .banner-img img{
+        overflow: hidden;
+        max-width: 1080px;
+    }
+    .contact-main .contact-img img{
+        max-width: 1080px;
+    }
+    .services-main .col-4{
+        max-width: 33.33%;
+    }
+    .services-main .col-4 .card-1{
+        width: 300px;
+        margin-right: 30px;
+    }
+    .services-main .col-4 .card-2{
+        width: 300px;
+        margin-right: 30px;
+    }
+    .single-pricing-box .get-started-btn{
+        width: 280px;
+    }
+    .single-pricing-box {
+        padding: 40px 20px 28px 20px;
+    }
+    .services-main .container .col-4 .card-1 p{
+       margin-bottom: 10px;
+       padding: 0px;
+    }
+
+    .services-main .container .col-4 .card-2 p{
+        margin-bottom: 10px;
+       padding: 0px;
+    }
+
+}
+@media(max-width:992px){
+    .banner .banner-img img{
+        overflow: hidden !important;
+        max-width: 992px;
+    } 
+    .contact-main .contact-img img{
+        max-width: 992px;
+    } 
+    .about-main .container .col-6 .about-img img{
+    
+        width: 320px;
+    }
+    .about-main .container .col-6{
+        max-width: 33.33%;
+        margin: 0px 60px;
+    }
+    .col-6 .about-data p{
+        display: none;
+    }
+    .services-main .col-4 .card-1{
+        max-width: 500px;
+        margin-right: 30px;
+    }
+    .services-main .col-4 .card-2{
+        /* width: 400px; */
+        width: 0px;
+        /* margin-right: 30px; */
+        display: none;
+    }
+    .services-main .container .col-4 .card-1 p{
+       padding-bottom: 20px ;
+       display: block;
+    }
+    .services-main .container .col-4 .card-2 h1{
+       padding-bottom: 90px ;
+       display: none;
+    }
+    .services-main .container .col-4 .card-2 p{
+       padding-bottom: 20px ;
+       display: none;
+    }
+}
+@media(max-width:768px){
+    .banner .banner-img img{
+        overflow: hidden;
+        max-width: 768px;
+    } 
+    .contact-main .contact-img img{
+        max-width: 768px;
+
+    } 
+    .about-main .container .col-6 .about-img img{
+        /* width: 41.66%; */
+        width: 540px;
+        margin-bottom: 30px;
+    } 
+     .about-data p{
+        display: block;
+    }
+    .footer-main .row .ft-1 .col-6{
+        width: 50% ;
+    }
+    .footer-main .row .ft-1 .col-2{
+        width: 16.66% ;
+    }
+    .footer-main .ft-1 .col-6 p{
+        max-width: 280px;
+    }
+    .footer-main .ft-1 .col-2 ul{
+        padding-left: 5px;
+    }
+}
+@media(max-width:576px){
+    .banner .banner-img img{
+        overflow: hidden;
+        max-width: 576px;
+    } 
+    .contact-main .contact-img img{
+        max-width: 576px;
+    } 
+    .about-main .container .col-6 .about-img img{
+        width: 540px;
+    }
+    .about-main .container .row{
+        display: flex;
+    } 
+      .about-data h2{
+        width: 400px;
+    }
+    .col-6 .about-data h6{
+        width: 400px;
+    }
+    .col-6 .about-data p{
+        display: block;
+        width: 380px;
+    }
+
+    .services-main .container .col-4{
+        width: 100%;
+    }
+    .services-main .col-4 .card-1{
+        max-width: 500px;
+        margin-right: 30px;
+    }
+    .services-main .col-4 .card-2{
+        width: 400px;
+        margin-right: 30px;
+        display: none;
+    }
+    .services-main .container .col-4 .card-1 p{
+       padding-bottom: 20px ;
+       display: block;
+    }
+    .services-main .container .col-4 .card-2 h1{
+       padding-bottom: 90px ;
+       display: none;
+    }
+    .services-main .container .col-4 .card-2 p{
+       padding-bottom: 20px ;
+       display: none;
+    }
+}
