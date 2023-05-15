@@ -104,11 +104,16 @@ img[alt="www.000webhost.com"] {
     width: 176px;
     margin-top: 5px;
 }
-
-.navbar .container .nav-item .nav-link {
+.nav-item .nav-link #active{
+    color: var(--hover-color);
+}
+ .nav-item .nav-link {
     color: var(--white);
 }
-
+.nav-item .nav-link:hover{
+    color: var(--hover-color);
+    transition: all 0.5s;
+}
 .navbar .container .navbar-toggler i {
     color: var(--white-color);
 }
