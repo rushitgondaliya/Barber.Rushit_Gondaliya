@@ -58,9 +58,8 @@
         /* width: 100%; */
     }
     .Potfolio .pot .pot-img-4{
-        margin: 10px;
-        max-width: 936px;
-        /* width: 100%; */
+        display: block;
+
     }
 
 }

@@ -309,14 +309,15 @@ header .col-8 .header-data ul .a-main:hover {
     padding: 70px 0px;
 }
 
-.services-main .container h2 {
+.services-main .container .service-title h2 {
     text-transform: capitalize;
     font-size: 46px;
     font-weight: 700;
     margin: 0 auto;
+    width: 300px;
     text-align: center;
 }
-.services-main .container .border-1 {
+.services-main .container .service-title .border-1 {
     border: 50px solid var(--hover-color);
     text-align: center;
     width: 60px;
@@ -338,10 +339,10 @@ header .col-8 .header-data ul .a-main:hover {
     text-align: center;
     padding: 20px 0px ; 
 }
-.services-main .col-4 .services-img {
+.services-main .col-lg-4 .services-img {
     padding-bottom: 20px;
 }   
-.services-main .col-4 .services-img  img{
+.services-main .col-lg-4 .services-img  img{
     color: var(--hover-color);
     height: 40px;
     width: 40px;
@@ -849,7 +850,7 @@ i{
     height: 100%;
     overflow: hidden;
 }
-.team-main .container .col-3 .team-img::after{
+.team-main .container .team-img-main .team-img::after{
     position: absolute;
     content: "";
     top: 0;
@@ -862,23 +863,23 @@ i{
     box-sizing: border-box;
     overflow: hidden;
 }
-.team-main .container .col-3 .team-img:hover::after{
+.team-main .container .team-img-main .team-img:hover::after{
     opacity: 0.5;
     overflow: hidden;
     transition: all 0.5s;
 }
-.team-main .container .col-3 .team-img:hover img{
+.team-main .container .team-img-main .team-img:hover img{
     transform: scale(1.1);
     transition: all 0.7s !important;
 } 
-.team-main .container .col-3 .team-img img {
+.team-main .container .team-img-main .team-img img {
     width: 285px;
     height: 285px;
     display: inline-block;
     overflow: hidden;
     transition: all 0.4s;
 }
-.team-main .container .col-3 .team-img {
+.team-main .container .team-img-main .team-img {
     margin-top: 30px;
     transition: all 0.5s;
     overflow: hidden;
@@ -886,63 +887,63 @@ i{
     background-color: var(--white);
     width: 282px;
 }
-.team-main .container .col-3 .content {
+.team-main .container .team-img-main .content {
     position: absolute;
     top: 40%;
     left: 25%;
     transform: translate(-40%, -25%);
     display: none;
 }
-.team-main .container .col-3:hover .content{
+.team-main .container .team-img-main:hover .content{
     display: block;
     opacity: 1 !important;
     z-index: 1;
 }
-.team-main .container .col-3 .social a li {
+.team-main .container .team-img-main.col-3 .social a li {
     list-style: none;
     /* display: flex; */
 }
-.team-main .container .col-3 .social a li i{
+.team-main .container .team-img-main .social a li i{
     color: var(--white);
     padding: 10px;  
 }
-.team-main .container .col-3 .social{
+.team-main .container .team-img-main .social{
     position: absolute;
     top: 62%;
     left: 38%;
     transform: translate(-62%, -38%);
     display: none; 
 }
-.team-main .container .col-3:hover .social{
+.team-main .container .team-img-main:hover .social{
     display: flex !important;
     display: block;
     opacity: 1 !important;
     z-index: 1;
     padding-left: 5px;
 }
-.team-main .container .col-3:hover .social a li i:hover{
+.team-main .container .team-img-main:hover .social a li i:hover{
     background-color: var(--white);
     color: var(--primary-color);
     transition: all 0.7s !important;
     border-radius: 2px;
     text-align: center;
 }
-.team-main .container .col-3 .content h3 {
+.team-main .container .team-img-main .content h3 {
     font-size: 17px;
     padding-left: 10px;
     padding-top: 5px;
     color: var(--white);
 }
-.team-main .container .col-3 .content p {
+.team-main .container .team-img-main .content p {
     padding: 0px 0px 5px 10px;
     color: #bdbdbd;
     margin: 0px;
 }
-.team-main .container .col-3 .social{
+.team-main .container .team-img-main .social{
     margin: 0;
     padding: 0;
 }
-.team-main .container .col-3 .social li {
+.team-main .container .team-img-main .social li {
     list-style: none;
 }
 
@@ -1180,34 +1181,36 @@ i{
 .footer-main .r-1{
     margin-bottom: 30px;
 }
-.footer-main .ft-1 .col-6 img{
+
+.footer-main .ft-1 .col-lg-6 .ft-img img{
     height: 64px;
     width: 250px;
     margin-bottom: 20px;
 }
-.footer-main .ft-1 .col-6 p{
+.footer-main .ft-1 .col-lg-6 .ft-img  p{
     font-size: 12px;
     color: #ffffffB3;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
+    margin-right: 0px ;
     width: 350px;
 }
-.footer-main .ft-1 .col-2 ul li{
+.footer-main .ft-1 .col-lg-2 ul li{
     list-style: none;
     color: #8f8f8fb3;
     padding: 2px;
 }
-.footer-main .ft-1 .col-2 ul .list-1{
+.footer-main .ft-1 .col-lg-2 .ft-list .list-1{
     font-size: 22px;
     color: #c2c2c2;
     margin-bottom: 10px;
 }
-.footer-main .ft-1 .col-2 ul li:hover{
+.footer-main .ft-1 .col-lg-2 ul .ft-list li:hover{
     color: #e8e7e7;
     transition: all 0.3s;
 }
-.footer-main .ft-1 .col-2 ul{
+.footer-main .ft-1 .col-lg-2 ul .ft-list {
     margin: 0px;
     padding: 0px;
     padding-left: 20px;
@@ -1218,7 +1221,7 @@ i{
 .footer-main .col-6 ul a li{
     list-style: none;
 }
-.footer-main .col-6{
+.footer-main .col-6 {
     padding: 0px;
 }
 .footer-main .col-6 ul li i{
@@ -1227,7 +1230,7 @@ i{
     background-color: transparent;
     
 }
-.footer-main .col-6 ul  a li i:hover{
+.footer-main .col-6 ul   a li i:hover{
     background-color: var(--white);
     color: var(--primary-color);
     transition: all 0.7s;
