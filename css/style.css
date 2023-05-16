@@ -96,7 +96,7 @@ img[alt="www.000webhost.com"] {
 .navbar{
     position: fixed;
     width: 100%;
-    z-index: 9999;
+    z-index: 99999;
 }
 .navbar {
     background-color: var(--primary-color);
