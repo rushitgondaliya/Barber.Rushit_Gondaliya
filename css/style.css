@@ -96,10 +96,11 @@ img[alt="www.000webhost.com"] {
 .navbar{
     position: fixed;
     width: 100%;
-    z-index: 9999g;
+    z-index: 9999;
 }
 .navbar {
     background-color: var(--primary-color);
+    z-index: 999999;
 }
 
 .navbar .container .logo-img img {
