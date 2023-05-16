@@ -90,11 +90,14 @@ img[alt="www.000webhost.com"] {
 .col-11 {
     width: 91.66%;
 }
-
 .col-12 {
     width: 100%;
 } */
-
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 9999g;
+}
 .navbar {
     background-color: var(--primary-color);
 }
